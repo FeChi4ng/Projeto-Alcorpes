@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../imagens/html01.png.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    min-width: 300px;
+    max-width: 750px;    
+    background-color: rgba(255, 255, 255, 0.74);
+    margin: auto;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.74);
+}
+
+ main > p {
+    display: flex;
+    text-align:justify;
+    text-indent: 20px;
+    font-size:1.0em;
+    text-indent: 20px;
+    line-height: 2em;
+    
+}
+
+main > picture >img{
+    width: 75%;
+    margin-left: 90px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.712);
+}
+
+picture.imagens2{
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+main > div#foto1 > img {
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.699);
+}
+
+main > div#foto2 > img {
+    width: 75%;
+    border-radius: 20px;
+    margin-left: 90px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.651);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer > p > a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    color: rgb(94, 194, 240);
+    text-decoration: none;
+    transition: .5s;
+
+}
+    
+    
+
+    
+
+
+
+
+ 
+
